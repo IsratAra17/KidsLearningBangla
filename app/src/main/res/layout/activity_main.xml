@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B9F11"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+        android:background="@color/colorPrimaryDark">
+
+
+        <Button
+
+            android:layout_weight="1"
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s1"
+            android:fontFamily="@font/kalpurush"
+            android:textSize="20sp"
+            android:textStyle="bold"
+           android:onClick="oli">
+
+        </Button>
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:text="@string/s2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="Ball">
+
+        </Button>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s3"
+            android:fontFamily="@font/kalpurush"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="Cat">
+        </Button>
+
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s4"
+            android:fontFamily="@font/kalpurush"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="Eid">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+       android:gravity="center"
+       android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:text="@string/s5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="Ut">
+        </Button>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s6"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="usha">
+            </Button>
+
+            <Button
+                android:layout_weight="1"
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s7"
+                android:fontFamily="@font/kalpurush"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="ritu">
+
+        </Button>
+            <Button
+                android:layout_weight="1"
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s8"
+                android:fontFamily="@font/kalpurush"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="aktara">
+            </Button>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/s9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="oirabot">
+            </Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#E91E63">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/b10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:text="@string/s10"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="ol">
+        </Button>
+        <Button
+            android:layout_weight="1"
+
+            android:id="@+id/b11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s11"
+            android:fontFamily="@font/kalpurush"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="owsod">
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <FrameLayout
+            android:id="@+id/f1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B">
+    </FrameLayout>
+
+
+
+</LinearLayout>

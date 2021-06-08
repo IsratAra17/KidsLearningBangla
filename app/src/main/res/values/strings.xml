@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">এসো স্বরবর্ণ শিখি</string>
+    <string name="apple">Apple</string>
+    <string name="Ball" />
+    <string name="Cat" />
+
+    <string name="s1">অ</string>
+    <string name="s2">আ</string>
+    <string name="s3">ই</string>
+    <string name="s4">ঈ</string>
+    <string name="s5">উ</string>
+    <string name="s6">ঊ</string>
+    <string name="s7">ঋ</string>
+    <string name="s8">এ</string>
+    <string name="s9">ঐ</string>
+    <string name="s10">ও</string>
+    <string name="s11">ঔ</string>
+    <string name="n"> এস.এম. ইসরাত আরা \n
+কম্পিউটার সাইন্স এন্ড ইঞ্জিনিয়ারিং\n Id:</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AforApple">A for Apple</string>
+    <string name="প্রাথমিক">প্রাথমিক</string>
+    <string name="click">"এসো স্বরবর্ণ শিখি  "</string>
+
+
+</resources>

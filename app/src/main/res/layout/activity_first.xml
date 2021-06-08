@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="20dp"
+    tools:context=".first">
+    <ImageView
+
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/mmm"
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#020202"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="@string/n">
+
+    </TextView>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsiki"
+        android:text="@string/click"
+        android:textColor="#F44336"
+        android:background="#FFEB3B"
+       android:textSize="30dp"
+        android:onClick="Button"
+   />
+
+
+
+</LinearLayout>
